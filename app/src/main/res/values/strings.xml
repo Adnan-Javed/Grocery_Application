@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Grocery Application</string>
+    <string name="grocery_item">Grocery Item</string>
+    <string name="grocery_List">Grocery List</string>
+    <string name="home">Home</string>
+    <string name="all_items">All Items</string>
+    <string name="action_create">Create</string>
+    <string name="amount">Amount</string>
+    <string name="item_name">Item Name</string>
+    <string name="list_name">List Name</string>
+    <string name="status">Status</string>
+    <string name="item_time">Item Time</string>
+    <string name="item_amount">RS. 0</string>
+    <string name="delete">Delete</string>
+</resources>
