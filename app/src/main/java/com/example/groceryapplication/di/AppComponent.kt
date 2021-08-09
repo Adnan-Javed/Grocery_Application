@@ -1,7 +1,7 @@
 package com.example.groceryapplication.di
 
 import android.content.Context
-import com.example.groceryapplication.*
+import com.example.groceryapplication.ui.*
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton

@@ -1,4 +1,4 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.model
 
 import com.example.groceryapplication.GroceryDatabase.Companion.STATUS_PENDING
 

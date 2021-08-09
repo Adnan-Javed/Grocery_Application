@@ -1,10 +1,12 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.groceryapplication.model.GroceryItem
+import com.example.groceryapplication.R
 
 class GroceryItemsAdapter(private val groceryItems: MutableList<GroceryItem> = mutableListOf()): RecyclerView.Adapter<GroceryItemsAdapter.GroceryItemViewHolder>() {
 

@@ -1,5 +1,8 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.repository
 
+import com.example.groceryapplication.model.GroceryItem
+import com.example.groceryapplication.model.GroceryList
+import com.example.groceryapplication.dataSource.LocalDataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

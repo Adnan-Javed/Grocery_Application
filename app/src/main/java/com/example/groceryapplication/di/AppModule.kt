@@ -2,7 +2,7 @@ package com.example.groceryapplication.di
 
 import android.content.Context
 import com.example.groceryapplication.GroceryDatabase
-import com.example.groceryapplication.LocalDataSource
+import com.example.groceryapplication.dataSource.LocalDataSource
 import com.example.groceryapplication.di.ViewModelModules.ViewModelModule
 import dagger.Module
 import dagger.Provides

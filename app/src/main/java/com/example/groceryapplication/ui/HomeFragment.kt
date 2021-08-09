@@ -1,7 +1,6 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.ui
 
 import android.content.Context
-import android.graphics.Canvas
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,12 +8,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.groceryapplication.GroceryDatabase.Companion.STATUS_COMPLETED
+import com.example.groceryapplication.BaseApplication
+import com.example.groceryapplication.model.GroceryItem
 import com.example.groceryapplication.databinding.FragmentHomeBinding
 import com.example.groceryapplication.di.ViewModelModules.ViewModelFactory
+import com.example.groceryapplication.viewModel.GroceryViewModel
 import javax.inject.Inject
 
 class HomeFragment : Fragment(), GroceryHomeAdapter.GroceryItemClickListener {

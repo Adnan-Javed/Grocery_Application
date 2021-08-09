@@ -1,10 +1,13 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.viewModel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.groceryapplication.GroceryDatabase.Companion.STATUS_COMPLETED
 import com.example.groceryapplication.GroceryDatabase.Companion.STATUS_PENDING
+import com.example.groceryapplication.model.GroceryItem
+import com.example.groceryapplication.model.GroceryList
+import com.example.groceryapplication.repository.GroceryRepository
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

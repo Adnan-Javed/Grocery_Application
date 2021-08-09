@@ -1,12 +1,15 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
+import com.example.groceryapplication.BaseApplication
 import com.example.groceryapplication.GroceryDatabase.Companion.KEY_LIST_ID
 import com.example.groceryapplication.GroceryDatabase.Companion.KEY_LIST_NAME
+import com.example.groceryapplication.model.GroceryItem
 import com.example.groceryapplication.databinding.ActivityCreateItemBinding
 import com.example.groceryapplication.di.ViewModelModules.ViewModelFactory
+import com.example.groceryapplication.viewModel.GroceryViewModel
 import javax.inject.Inject
 
 class CreateItemActivity : AppCompatActivity() {

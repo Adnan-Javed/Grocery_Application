@@ -1,4 +1,4 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
+import com.example.groceryapplication.R
 import com.example.groceryapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

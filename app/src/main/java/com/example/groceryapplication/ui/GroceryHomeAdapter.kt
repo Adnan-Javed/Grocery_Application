@@ -1,4 +1,4 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,10 +7,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.groceryapplication.GroceryDatabase.Companion.STATUS_COMPLETED
 import com.example.groceryapplication.GroceryDatabase.Companion.STATUS_PENDING
+import com.example.groceryapplication.model.GroceryItem
+import com.example.groceryapplication.R
 import com.google.android.material.checkbox.MaterialCheckBox
 
 class GroceryHomeAdapter(private val groceryItems: MutableList<GroceryItem> = mutableListOf(),
-                         private var itemClickListener: GroceryHomeAdapter.GroceryItemClickListener? = null): RecyclerView.Adapter<GroceryHomeAdapter.GroceryItemViewHolder>() {
+                         private var itemClickListener: GroceryItemClickListener? = null): RecyclerView.Adapter<GroceryHomeAdapter.GroceryItemViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GroceryItemViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_grocery, parent, false)

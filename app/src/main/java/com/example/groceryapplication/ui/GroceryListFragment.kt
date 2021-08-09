@@ -1,7 +1,6 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.ui
 
 import android.content.Context
-import android.content.Intent
 import android.graphics.Canvas
 import android.os.Bundle
 import android.view.*
@@ -13,10 +12,14 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.groceryapplication.BaseApplication
 import com.example.groceryapplication.GroceryDatabase.Companion.KEY_LIST_ID
 import com.example.groceryapplication.GroceryDatabase.Companion.KEY_LIST_NAME
+import com.example.groceryapplication.model.GroceryList
+import com.example.groceryapplication.R
 import com.example.groceryapplication.databinding.FragmentGroceryListBinding
 import com.example.groceryapplication.di.ViewModelModules.ViewModelFactory
+import com.example.groceryapplication.viewModel.GroceryViewModel
 import javax.inject.Inject
 
 class GroceryListFragment : Fragment(), GroceryListsAdapter.GroceryListClickListener {

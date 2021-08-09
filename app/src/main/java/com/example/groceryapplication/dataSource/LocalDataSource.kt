@@ -1,7 +1,8 @@
-package com.example.groceryapplication
+package com.example.groceryapplication.dataSource
 
 import android.content.ContentValues
 import android.database.sqlite.SQLiteDatabase
+import com.example.groceryapplication.GroceryDatabase
 import com.example.groceryapplication.GroceryDatabase.Companion.KEY_AMOUNT
 import com.example.groceryapplication.GroceryDatabase.Companion.KEY_ID
 import com.example.groceryapplication.GroceryDatabase.Companion.KEY_LIST_ID
@@ -12,6 +13,8 @@ import com.example.groceryapplication.GroceryDatabase.Companion.KEY_TIMESTAMP
 import com.example.groceryapplication.GroceryDatabase.Companion.STATUS_PENDING
 import com.example.groceryapplication.GroceryDatabase.Companion.TABLE_GROCERY
 import com.example.groceryapplication.GroceryDatabase.Companion.TABLE_GROCERY_ITEM
+import com.example.groceryapplication.model.GroceryItem
+import com.example.groceryapplication.model.GroceryList
 import java.text.SimpleDateFormat
 import java.util.*
 import javax.inject.Inject

@@ -17,11 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GroceryApplication">
-        <activity android:name=".CreateListActivity"
+        <activity android:name=".ui.CreateListActivity"
             android:label="@string/grocery_List"/>
-        <activity android:name=".CreateItemActivity"
+        <activity android:name=".ui.CreateItemActivity"
             android:label="@string/grocery_item"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
